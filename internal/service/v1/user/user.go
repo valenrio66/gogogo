@@ -1,10 +1,8 @@
 package user
 
 import (
-	"fmt"
-	fibhelp "github.com/aiteung/athelper/fiber"
 	"github.com/gofiber/fiber/v2"
-	"gogogo/internal/model"
+	"github.com/valenrio66/gofuck"
 )
 
 func (u *userHandler) GetAllUser(ctx *fiber.Ctx) (err error) {
@@ -13,12 +11,5 @@ func (u *userHandler) GetAllUser(ctx *fiber.Ctx) (err error) {
 		return fiber.NewError(fiber.StatusNotFound, "Data User tidak Ditemukan")
 	}
 
-	err = fibhelp.ReturnData[model.User]{
-		Code:    fiber.StatusOK,
-		Success: true,
-		Status:  fmt.Sprintf("Berhasil Get Data"),
-		Data:    dataUser,
-	}.WriteResponseBody(ctx)
-
-	return
+	return gofuck.GoddamnResponse(ctx, fiber.StatusOK, true, "Berhasil Get Data", dataUser)
 }
