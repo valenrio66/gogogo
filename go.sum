@@ -68,6 +68,8 @@ github.com/stretchr/testify v1.8.4 h1:CcVxjf3Q8PM0mHUKJCdn+eZZtm5yQwehR5yeSVQQcU
 github.com/stretchr/testify v1.8.4/go.mod h1:sz/lmYIOXD/1dqDmKjjqLyZ2RngseejIcXlSw2iwfAo=
 github.com/valenrio66/gofuck v0.0.1 h1:uU87m6eWP9QUriX5pVaufJubROyMzW/sUEUGcPsiPFw=
 github.com/valenrio66/gofuck v0.0.1/go.mod h1:AeBn+wF8VezI+Mr9uvEYXVHv7A4y1iuHyI5IiZTupUA=
+github.com/valenrio66/gofuck v0.0.2 h1:d9rFNkD8P3IvWq38IYT0bJH15bQMh4r1dQH3TY42QSo=
+github.com/valenrio66/gofuck v0.0.2/go.mod h1:AeBn+wF8VezI+Mr9uvEYXVHv7A4y1iuHyI5IiZTupUA=
 github.com/valyala/bytebufferpool v1.0.0 h1:GqA5TC/0021Y/b9FG4Oi9Mr3q7XYx6KllzawFIhcdPw=
 github.com/valyala/bytebufferpool v1.0.0/go.mod h1:6bBcMArwyJ5K/AmCkWv1jt77kVWyCJ6HpOuEn7z0Csc=
 github.com/valyala/fasthttp v1.55.0 h1:Zkefzgt6a7+bVKHnu/YaYSOPfNYNisSVBo/unVCf8k8=
