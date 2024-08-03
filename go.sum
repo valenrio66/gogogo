@@ -70,6 +70,10 @@ github.com/valenrio66/gofuck v0.0.1 h1:uU87m6eWP9QUriX5pVaufJubROyMzW/sUEUGcPsiP
 github.com/valenrio66/gofuck v0.0.1/go.mod h1:AeBn+wF8VezI+Mr9uvEYXVHv7A4y1iuHyI5IiZTupUA=
 github.com/valenrio66/gofuck v0.0.2 h1:d9rFNkD8P3IvWq38IYT0bJH15bQMh4r1dQH3TY42QSo=
 github.com/valenrio66/gofuck v0.0.2/go.mod h1:AeBn+wF8VezI+Mr9uvEYXVHv7A4y1iuHyI5IiZTupUA=
+github.com/valenrio66/gofuck v0.0.3 h1:8M6SvD96ZhKTu3N7Nu744U2XITiYmK0gGBwsPzzGCbk=
+github.com/valenrio66/gofuck v0.0.3/go.mod h1:AeBn+wF8VezI+Mr9uvEYXVHv7A4y1iuHyI5IiZTupUA=
+github.com/valenrio66/gofuck v0.0.4 h1:tmTSoM+1YKOA8VWe/zWM97IdlLHDk7lg8XC8wKYJYGI=
+github.com/valenrio66/gofuck v0.0.4/go.mod h1:AeBn+wF8VezI+Mr9uvEYXVHv7A4y1iuHyI5IiZTupUA=
 github.com/valyala/bytebufferpool v1.0.0 h1:GqA5TC/0021Y/b9FG4Oi9Mr3q7XYx6KllzawFIhcdPw=
 github.com/valyala/bytebufferpool v1.0.0/go.mod h1:6bBcMArwyJ5K/AmCkWv1jt77kVWyCJ6HpOuEn7z0Csc=
 github.com/valyala/fasthttp v1.55.0 h1:Zkefzgt6a7+bVKHnu/YaYSOPfNYNisSVBo/unVCf8k8=

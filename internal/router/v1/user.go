@@ -41,6 +41,7 @@ func Handler(group fiber.Router) (err error) {
 
 	userRoute := group.Group("/user")
 	userRoute.Get("/", UserHandler.GetAllUser)
+	userRoute.Get("/getone", UserHandler.GetUserByID)
 	userRoute.Post("/add", UserHandler.CreateUser)
 	return
 }

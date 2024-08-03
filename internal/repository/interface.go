@@ -7,5 +7,6 @@ import (
 
 type User interface {
 	GetDataUser(ctx context.Context) (user []model.User, err error)
+	GetUserByID(ctx context.Context, id string) (user model.User, err error)
 	CreateUser(ctx context.Context, user model.User) (createdUser model.User, err error)
 }

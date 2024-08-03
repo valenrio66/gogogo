@@ -14,6 +14,15 @@ func (db *UserItab) GetDataUser(ctx context.Context) (user []model.User, err err
 	return
 }
 
+func (db *UserItab) GetUserByID(ctx context.Context, id string) (user model.User, err error) {
+	grm := db.Gorm
+	err = grm.WithContext(ctx).Model(&model.User{}).
+		Where("id_user = ?", id).
+		First(&user).
+		Error
+	return
+}
+
 func (db *UserItab) CreateUser(ctx context.Context, user model.User) (createdUser model.User, err error) {
 	grm := db.Gorm
 

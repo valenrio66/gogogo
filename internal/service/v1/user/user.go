@@ -15,6 +15,20 @@ func (u *userHandler) GetAllUser(ctx *fiber.Ctx) (err error) {
 	return gofuck.GoddamnResponse(ctx, fiber.StatusOK, true, "Berhasil Get Data", dataUser)
 }
 
+func (u *userHandler) GetUserByID(ctx *fiber.Ctx) (err error) {
+	id, err := gofuck.GoddamnID(ctx, "id_user")
+	if err != nil {
+		return err
+	}
+
+	dataDonasi, err := u.User.GetUserByID(ctx.Context(), id)
+	if err != nil {
+		return gofuck.FuckTheErrorResponse(ctx, fiber.StatusNotFound, "Data User tidak Ditemukan")
+	}
+
+	return gofuck.GoddamnResponse(ctx, fiber.StatusOK, true, "Berhasil Get Data", dataDonasi)
+}
+
 func (u *userHandler) CreateUser(ctx *fiber.Ctx) (err error) {
 	var user model.User
 	if err := gofuck.ParseFuckingBody(ctx, &user); err != nil {
